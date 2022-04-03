@@ -10,7 +10,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
-    ret="""build din azure dev rbc:<br>
+    ret="""Hello World from github:<br>
 
      """
 
