@@ -1,0 +1,13 @@
+runtime: python37
+service: appenginadevrbc
+instance_class: F4_1G
+
+automatic_scaling:
+  min_instances: 1
+
+inbound_services:
+- warmup
+
+handlers:
+- url: .*
+  script: auto
