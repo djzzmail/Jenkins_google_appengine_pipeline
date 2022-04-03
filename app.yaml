@@ -1,5 +1,5 @@
 runtime: python37
-service: appenginadevrbc
+service: appenginadevtest
 instance_class: F4_1G
 
 automatic_scaling:
